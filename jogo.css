@@ -1,0 +1,325 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+.corpo{
+    background-color:rgba(230, 189, 9, 0.89);
+    width: 100%;
+    max-width: 1400px;
+    height:800px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+#placar{
+    width:100%;
+    max-width:500px;
+    background-color: blueviolet;
+    height:auto;
+    border-radius: 10px;
+    margin-left:20px;
+    margin-top:35px;
+    float: left;
+    z-index: 99999;
+    
+    
+}
+.pontuacao{
+    width: 455px;
+    background-color:blueviolet;
+    height:500px;
+    margin-left:10px;
+    font-size: 240px;
+    border-radius: 50px;
+    color: rgba(223, 238, 8, 0.986);
+    font-family: 'Geostar Fill', cursive;
+    text-align: center;
+    line-height: 500px;
+}
+.nomeplacar{
+    width: 455px;
+    height: 200px;
+    background-color:blueviolet;
+    margin-left:20px;
+    margin-top: 20px;
+    font-size: 70px;
+    text-align: center;
+    line-height: 200px;
+    font-family: 'Bungee Outline', cursive;
+    color: rgba(223, 238, 8, 0.986);
+    float: left;
+}
+.jogo{
+    background-color:blueviolet;
+    width:100%;
+    max-width: 840px;
+    height:725px;
+    float: left;
+    border-radius: 10px;
+    margin-left:10px;
+    margin-top: 30px;
+    position: relative;
+    
+}
+.topo{
+
+    width:100%;
+    width: 1400px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+   
+    
+}
+.logotipo{
+    
+     width:100%;
+    max-width: 700px;
+    float: left;
+    font-size: 30px;
+    height: 50px;
+}
+.nomelogo{
+    float: left;
+    width: 450px;
+    height: 50px;
+    text-align: left;
+    background-color: brown;
+    line-height: 50px;
+    font-size: 38px;
+    font-family: 'Geostar Fill', cursive;
+
+    
+}
+.imagemlogo{
+    width: 250px;
+    height:50px;
+    float:left;
+    background-color:brown;
+}
+.topo2{
+  
+    width:100%;
+   max-width: 700px;
+   float: left;
+  height: 50px;
+}
+.redessociais{
+    width: 100%;
+    max-width: 700px;
+    height: 50px;
+    background-color:brown;
+    
+}
+.imagemrede{
+     width: 700px;
+    height: 50px;
+    background-color:brown;
+}
+.imagemrede ul {
+ display: inline;
+ }
+ .imagemrede li{
+     float: right;
+     list-style: none;
+     line-height: 50px;
+     margin-right: 20px;
+ }
+ .botao{
+     width:100%;
+     max-width:200px;
+     height: 50px;
+     margin-top:50px;
+     margin-left: auto;
+     margin-right: auto;
+     
+}
+.botao1{
+    width: 100%;
+    max-width:100px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+
+}
+.botao1 button{
+    color:rgba(223, 238, 8, 0.986);;
+    background-color: blueviolet;
+    font-size: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.botao2{
+    width: 100%;
+    max-width:100px;
+    float: left;
+   line-height: 50px;
+   text-align: center;
+  
+}
+.botao2 button{
+    color:rgba(223, 238, 8, 0.986);;
+    background-color:blueviolet;
+    font-size: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+ .bola{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    position: absolute;
+    cursor: pointer;
+   
+ }
+ .rodape{
+     background-color:brown;
+     width: 100%;
+     max-width: 1400px;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 35px;
+     text-align: center;
+     margin-top: 30px;
+     font-family: 'Geostar Fill', cursive;
+ }
+ 
+ @media only screen and (min-width:979px) and (max-width:1410px){
+    .topo{
+        max-width: 900px;
+    }
+    .logotipo,
+    .imagemrede,
+    .topo2{
+        max-width: 450px;
+        
+    }
+    .nomelogo{
+        width: 400px;
+    }
+    .imagemlogo{
+        width:50px;
+    }
+    .corpo{
+        max-width: 1000px;
+    }
+    #placar{
+        max-width: 400px;
+    }
+    .pontuacao{
+        width: 358px;
+        font-size: 200px;
+    }
+    .nomeplacar{
+        width: 379px;
+        font-size: 50px;
+    }
+    .jogo{
+        max-width: 550px; 
+    }
+    .rodape{
+        max-width: 1000px;
+    }
+   }
+   
+   @media only screen and (min-width:700px) and (max-width:979px){
+    .topo{
+        max-width: 500px;
+    }
+    .logotipo,
+    .imagemrede,
+    .topo2{
+        max-width: 250px;
+        
+    }
+    .nomelogo{
+        width: 200px;
+        font-size: 22px;
+    }
+    .imagemlogo{
+        width:50px;
+    }
+    .corpo{
+        max-width: 480px;
+        position: relative;
+        
+    }
+    #placar{
+        max-width: 180px;
+    }
+    .pontuacao{
+        width: 166px;
+        font-size: 102px;
+    }
+    .nomeplacar{
+        width: 153px;
+        font-size: 24px;
+    }
+    .jogo{
+        max-width: 250px; 
+        position: relative;
+    }
+    .rodape{
+        max-width: 800px;
+        font-size: 20px;
+    }
+}
+
+   @media only screen and  (max-width:700px){
+    .topo{
+        max-width: 500px;
+    }
+    .logotipo,
+    .imagemrede,
+    .topo2{
+        max-width: 250px;
+        
+    }
+    .nomelogo{
+        width: 200px;
+        font-size: 22px;
+    }
+    .imagemlogo{
+        width:50px;
+    }
+    .corpo{
+        max-width: 480px;
+        position: relative;
+        height: 800px;
+        
+    }
+    #placar{
+        max-width: 180px;
+    }
+    .pontuacao{
+        width: 166px;
+        font-size: 102px;
+    }
+    .nomeplacar{
+        width: 153px;
+        font-size: 24px;
+    }
+    .jogo{
+        max-width: 250px; 
+        position: relative;
+    }
+    .rodape{
+        max-width: 800px;
+        font-size: 20px;
+    }
+}
+
+    
+
+
+
+
+
+   
